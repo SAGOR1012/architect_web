@@ -82,3 +82,40 @@ nav li a {
     flex-direction: column;
   }
 }
+/* Main section style */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.teams_container {
+  display: flex;
+  align-items: center;
+}
+.teams_images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.teams_content {
+  padding-left: 76px;
+  padding-right: 76px;
+}
+.teams_content .teams_title .quick_list {
+  color: #727272;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.teams_content .teams_title .off_uour {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.teams_content .teams_title .features {
+  color: #ff900e;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.teams_content .teams_description {
+  color: #727272;
+  font-size: 1rem;
+}
